@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30T13:59:47.682Z",
+  "date": "2026-10-30T14:13:42.430Z",
   "environment": "Local WordPress / PHP 8.3 / SQLite",
   "tests": [
     {
@@ -83,6 +83,14 @@
       "passed": true
     },
     {
+      "name": "Real short guest video upload passes server validation",
+      "passed": true
+    },
+    {
+      "name": "Guest video persists privately pending approval",
+      "passed": true
+    },
+    {
       "name": "Disguised executable/image uploads are rejected",
       "passed": true
     },
@@ -91,6 +99,6 @@
       "passed": true
     }
   ],
-  "passed": 22,
-  "total": 22
+  "passed": 24,
+  "total": 24
 }
