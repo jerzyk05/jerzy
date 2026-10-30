@@ -1,5 +1,9 @@
-HOSTINGER DEPLOYMENT — REQUIRES JERZY'S APPROVAL
-Nothing in this project has been deployed. Do not overwrite an existing website without explicit approval.
+LIVE DEPLOYMENT — 2026-10-30
+Published with Jerzy's approval to https://jerzy.us/. Owner dashboard: https://jerzy.us/wp-admin/admin.php?page=jerzy-gallery
+Custom plugin and theme installed; reviewed sample collection imported. Live PHP 8.3.36, MariaDB 11.8.9, HTTPS active, public registration disabled. LiteSpeed Cache plugin disabled to preserve dynamic gallery privacy. Owner upload batch server limit set to 30.
+Private media: /home/u669591771/domains/jerzy.us/jerzy-private-media (outside public_html).
+20 live HTTP checks passed; see live-test-results.json. Hostinger daily backups are enabled; the first manual backup completed at 10:50 a.m. America/New_York on 2026-10-30. The completed backup includes domains/jerzy.us/jerzy-private-media alongside public_html. A restore drill has not been performed. Physical iPhone Safari and password-recovery delivery have not been tested.
+The following procedure remains the reference for future installations and maintenance.
 
 VERIFIED ACCOUNT CAPABILITIES (2026-10-30)
 Active Unlimited Web Hosting: 50 GB storage, 3 GB RAM, 2 CPU cores, 600,000 inodes, 60 PHP workers; PHP/MySQL and Node.js/Next.js support were visible in hPanel. A custom WordPress build was chosen for simpler unified administration. "Unlimited" is the plan name, not unlimited disk space.
@@ -37,4 +41,4 @@ UPDATES
 Replace only the plugin/theme code. Do not remove the private media directory, uploads, or database. Activation is idempotent and does not duplicate country albums. Test changes locally or in staging before production.
 
 LOCAL VALIDATION LIMITS
-The attached test report describes a local WordPress/PHP/SQLite run. Hostinger MySQL, HTTPS, email, backup coverage, production upload limits and physical iPhone Safari still require the above deployment checks. The local preview uses WordPress Playground automatic login on loopback only; never deploy the .local runtime or preview scripts as a web service.
+The attached test report describes a local WordPress/PHP/SQLite run. Live MariaDB, HTTPS, private storage, upload limits and backup directory coverage were checked on 2026-10-30. Password-recovery email delivery, a backup restore drill and physical iPhone Safari remain untested. The local preview uses WordPress Playground automatic login on loopback only; never deploy the .local runtime or preview scripts as a web service.

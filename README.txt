@@ -1,5 +1,7 @@
 JERZY — LIFE, COLLECTED
-Working bilingual WordPress website. Not deployed to Hostinger.
+Working bilingual WordPress website. Published to https://jerzy.us/ with owner approval on 2026-10-30.
+Owner dashboard: https://jerzy.us/wp-admin/admin.php?page=jerzy-gallery
+See HOSTINGER-DEPLOYMENT.txt and live-test-results.json for deployment verification.
 
 INSTALLABLE PACKAGES
 jerzy-gallery.zip is the gallery plugin.

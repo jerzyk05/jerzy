@@ -1,0 +1,85 @@
+{
+  "domain": "jerzy.us",
+  "tests": [
+    {
+      "name": "HTTPS homepage and approved theme",
+      "passed": true
+    },
+    {
+      "name": "Ten countries without private test album",
+      "passed": true
+    },
+    {
+      "name": "Private photo denied",
+      "passed": true
+    },
+    {
+      "name": "Private video denied",
+      "passed": true
+    },
+    {
+      "name": "Private photo page denied",
+      "passed": true
+    },
+    {
+      "name": "Private album denied",
+      "passed": true
+    },
+    {
+      "name": "Owner dashboard requires login",
+      "passed": true
+    },
+    {
+      "name": "Polish galleries and black photo section",
+      "passed": true
+    },
+    {
+      "name": "Public photo loads with no-store",
+      "passed": true
+    },
+    {
+      "name": "Video seeking returns exactly requested bytes",
+      "passed": true
+    },
+    {
+      "name": "Photo comment submitted for review",
+      "passed": true
+    },
+    {
+      "name": "Pending comment hidden from visitors",
+      "passed": true
+    },
+    {
+      "name": "Actual visitor photo and video uploads accepted",
+      "passed": true
+    },
+    {
+      "name": "Pending guest submissions not public",
+      "passed": true
+    },
+    {
+      "name": "Missing submission nonce rejected",
+      "passed": true
+    },
+    {
+      "name": "HTTP redirects to HTTPS",
+      "passed": true
+    },
+    {
+      "name": "WWW serves HTTPS website",
+      "passed": true
+    },
+    {
+      "name": "Pending guest media 117 inaccessible",
+      "passed": true
+    },
+    {
+      "name": "Pending guest media 118 inaccessible",
+      "passed": true
+    },
+    {
+      "name": "Protected media not publicly cached by LiteSpeed",
+      "passed": true
+    }
+  ]
+}

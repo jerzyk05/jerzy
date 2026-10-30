@@ -1,3 +1,7 @@
+LIVE WEBSITE: https://jerzy.us/
+OWNER DASHBOARD: https://jerzy.us/wp-admin/admin.php?page=jerzy-gallery
+Sign in with jerzylojas@gmail.com and the password you set in Hostinger. The same links work in iPhone Safari.
+
 MANAGING YOUR WEBSITE / ZARZĄDZANIE STRONĄ
 
 Sign in through Owner sign-in / Logowanie właściciela at the bottom of your website. Open My collection in WordPress. This dashboard works in a mobile browser as well as on Windows.
@@ -32,3 +36,6 @@ Website settings lets you choose the background color and hero photograph, edit 
 
 BACKUPS
 Keep both the WordPress database and the private media directory. Theme/plugin ZIPs are source backups, not backups of your photographs. See the deployment guide for the full restore procedure.
+
+LIVE BACKUPS
+Hostinger daily backups are enabled. The first manual backup completed on October 30, 2026 at 10:50 a.m. Eastern and includes both public_html and the private media directory. Restore both files and the matching database together. Keep LiteSpeed page caching disabled unless gallery-specific cache exclusions have been configured and privacy re-tested.
