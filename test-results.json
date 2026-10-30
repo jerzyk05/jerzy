@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-30T13:59:47.682Z",
+  "environment": "Local WordPress / PHP 8.3 / SQLite",
+  "tests": [
+    {
+      "name": "Polish galleries and all ten countries",
+      "passed": true
+    },
+    {
+      "name": "Photo page keeps the pure-black theme",
+      "passed": true
+    },
+    {
+      "name": "Authenticated owner administration renders",
+      "passed": true
+    },
+    {
+      "name": "Unauthenticated owner administration is blocked",
+      "passed": true
+    },
+    {
+      "name": "Plugin administration stylesheet is available",
+      "passed": true
+    },
+    {
+      "name": "Owner can create a private bilingual album",
+      "passed": true
+    },
+    {
+      "name": "Real owner multipart photo upload saves",
+      "passed": true
+    },
+    {
+      "name": "Upload persists as a draft in the database",
+      "passed": true
+    },
+    {
+      "name": "Private-album media bytes are denied to visitors",
+      "passed": true
+    },
+    {
+      "name": "Private-album detail page is denied to visitors",
+      "passed": true
+    },
+    {
+      "name": "Owner can view private photo bytes",
+      "passed": true
+    },
+    {
+      "name": "Public photo bytes are served",
+      "passed": true
+    },
+    {
+      "name": "Video byte ranges support playback and seeking",
+      "passed": true
+    },
+    {
+      "name": "Invalid video byte ranges return 416",
+      "passed": true
+    },
+    {
+      "name": "A visitor can submit a photo comment",
+      "passed": true
+    },
+    {
+      "name": "Comments enter moderation instead of appearing immediately",
+      "passed": true
+    },
+    {
+      "name": "Approved comment appears only under its own photo",
+      "passed": true
+    },
+    {
+      "name": "Real guest upload submits for review",
+      "passed": true
+    },
+    {
+      "name": "Pending guest media is inaccessible before approval",
+      "passed": true
+    },
+    {
+      "name": "Approved guest media becomes visible in Guest Gallery",
+      "passed": true
+    },
+    {
+      "name": "Disguised executable/image uploads are rejected",
+      "passed": true
+    },
+    {
+      "name": "Missing form nonce is rejected",
+      "passed": true
+    }
+  ],
+  "passed": 22,
+  "total": 22
+}

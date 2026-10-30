@@ -1,0 +1,40 @@
+HOSTINGER DEPLOYMENT — REQUIRES JERZY'S APPROVAL
+Nothing in this project has been deployed. Do not overwrite an existing website without explicit approval.
+
+VERIFIED ACCOUNT CAPABILITIES (2026-10-30)
+Active Unlimited Web Hosting: 50 GB storage, 3 GB RAM, 2 CPU cores, 600,000 inodes, 60 PHP workers; PHP/MySQL and Node.js/Next.js support were visible in hPanel. A custom WordPress build was chosen for simpler unified administration. "Unlimited" is the plan name, not unlimited disk space.
+
+BEFORE INSTALLATION
+1. Agree on the exact target domain/site. Do not assume an existing site can be replaced.
+2. Back up the existing site's database, files, and configuration before any changes.
+3. Use a current supported WordPress version and PHP 8.3+ with MySQL, GD or Imagick, and sufficient upload limits. Keep WordPress core/plugins maintained.
+4. Create a private media directory outside public_html. Configure define('JL_MEDIA_DIR', '/absolute/private/path'); in wp-config.php if the default sibling directory is unsuitable. Ensure PHP can write it. Do not put this directory under a public URL. The plugin refuses a directory within the WordPress document root.
+5. For the advertised per-file limits, configure upload_max_filesize >=100M, post_max_size >=650M and max_file_uploads >=30, subject to hosting limits. Also check proxy/request and execution-time limits. Use smaller batches if the host cannot support these request sizes. No such settings have been changed yet.
+
+INSTALL
+6. Upload jerzy-gallery.zip using WordPress Plugins > Add New > Upload. Activate it. This creates ten country albums once, without sample media.
+7. Upload jerzy-journal.zip using Appearance > Themes > Add New > Upload. Activate it.
+8. Set a strong owner password privately in WordPress; disable public account registration. Consider two-factor authentication. Never use development preview credentials in production.
+9. Configure homepage text, color and hero image in My collection. Upload real photos/videos and publish them only after review. Import real content through WordPress tools if migrating; do not replace a production MySQL database with the local SQLite database.
+10. Enable HTTPS and test normal login/password recovery on the chosen domain. Email delivery is a hosting-stage check, not verified locally.
+
+VERIFY BEFORE OPENING TO VISITORS
+- Both languages, all gallery links, new album creation, multi-upload, titles/captions, ordering and covers.
+- A visitor photo comment remains pending until approved and appears only on that photo.
+- A visitor image and short MP4 upload remains inaccessible until approved.
+- A logged-out browser gets 404 for a private album's photo URL and detail page, including a published photo inside that private album.
+- Draft and rejected guest uploads cannot be fetched directly.
+- Change an album from public to private and check it again logged out.
+- Video seeking and range requests, full-screen lightbox, iPhone Safari upload/playback, and responsive layouts.
+- Updating the plugin/theme does not remove database records or private media.
+- Test daily backups and one restore on a separate staging site.
+
+BACKUP / RESTORE
+Back up MySQL plus the entire private media directory, regular wp-content/uploads (used by ordinary WordPress pages), theme/plugin versions and configuration. Hostinger's normal public_html backup may not include the sibling private media directory: explicitly verify coverage or add a separate private-directory backup. Store an additional copy outside the hosting account.
+Restore files and database from the same backup set. Set the correct JL_MEDIA_DIR path and permissions, update the site URL using WordPress-aware tools if the domain changes, and re-run privacy/upload checks. Never expose backups through a public directory.
+
+UPDATES
+Replace only the plugin/theme code. Do not remove the private media directory, uploads, or database. Activation is idempotent and does not duplicate country albums. Test changes locally or in staging before production.
+
+LOCAL VALIDATION LIMITS
+The attached test report describes a local WordPress/PHP/SQLite run. Hostinger MySQL, HTTPS, email, backup coverage, production upload limits and physical iPhone Safari still require the above deployment checks. The local preview uses WordPress Playground automatic login on loopback only; never deploy the .local runtime or preview scripts as a web service.

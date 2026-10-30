@@ -1,0 +1,34 @@
+MANAGING YOUR WEBSITE / ZARZĄDZANIE STRONĄ
+
+Sign in through Owner sign-in / Logowanie właściciela at the bottom of your website. Open My collection in WordPress. This dashboard works in a mobile browser as well as on Windows.
+
+COUNTRY GALLERIES
+Use Create an album. Enter English and Polish names. Every album is available in Photos and Videos, which automatically show the matching media type. Albums shows both types together. Add new countries at any time without editing source code.
+Choose Public or Private. Private means owner-only for this version; inviting selected family members is a future extension. A private parent also protects its child albums and their media.
+To rename an album or change visibility, use Edit in its album panel. WordPress's Publish box controls visibility and status. Nested albums use Parent album.
+
+PHOTO AND VIDEO UPLOADS
+Choose an album in Upload photos & videos. Select multiple files or drop them on the file chooser. Use JPG, PNG or WebP photos (up to 20 MB), MP4 or WebM videos (up to 100 MB). Photos above 80 megapixels are rejected to protect processing memory. iPhone HEIC/MOV should be exported as JPEG/MP4 before uploading.
+Files save as drafts. Open Photos & videos / Media in WordPress, edit the title and caption, add the Polish title and body, optionally add a category, then Preview. Choose Publish when ready. You can publish multiple checked items using WordPress Bulk actions > Edit > Status.
+A draft is owner-only. Publishing a file inside a private album still keeps it private.
+For a gallery cover, select a photograph in its album panel, reorder items using drag-and-drop or arrow buttons, then Save cover & order. Videos can use a photo as their poster through the media edit screen.
+Move an item to Trash to unpublish it. Permanently deleting the item also deletes its associated original and derivatives. Deleting an album does not destroy the media records; reassign them to another album if needed.
+
+LONGER VIDEOS
+For larger videos, use the Add a hosted video form with a YouTube or Vimeo HTTPS link. The host handles video delivery; its visibility settings apply independently. A private gallery should use direct uploads because an external video URL may still be available independently of the website. No external video account or paid plan has been created for you.
+
+COMMENTS
+Visitors open an individual photograph and leave a name and comment. Every new comment waits in Review comments. Approve, mark as spam, or Trash it. Approved comments appear only beneath the corresponding photograph. Guest email addresses are not required.
+
+GUEST GALLERY
+Visitors may submit up to six photos or short videos (maximum 60 seconds per video). They confirm they have permission to share the files. Submissions are stored as Pending and are not publicly served until you approve them.
+Open Review guest submissions, inspect each item with Preview, and Publish the acceptable ones. The contributor's name and caption become public after approval. Trash unwanted submissions. Website settings can pause guest uploads. Basic per-address rate limits are included; heavy public traffic may need additional spam protection.
+
+JOURNAL AND PAGES
+Write a story opens the WordPress editor. The main title/body are English; Polish version fields are underneath. Preview before Publish. Journal stories also appear on the homepage. Add a page creates an additional content page; published pages appear in the footer automatically.
+
+HOMEPAGE
+Website settings lets you choose the background color and hero photograph, edit English/Polish introduction and About text, and pause or resume visitor uploads. Black homepage typography is preserved, so choose a light background.
+
+BACKUPS
+Keep both the WordPress database and the private media directory. Theme/plugin ZIPs are source backups, not backups of your photographs. See the deployment guide for the full restore procedure.
